@@ -1,0 +1,11 @@
+table {
+    border-style: inset;
+    border-collapse: collapse;
+    border-width: 0.2em;
+}
+
+th, td {
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+
+}
