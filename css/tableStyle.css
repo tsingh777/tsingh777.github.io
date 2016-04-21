@@ -9,3 +9,12 @@ th, td {
     border-bottom: solid 1px;
 
 }
+
+td {
+    padding: 10px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
