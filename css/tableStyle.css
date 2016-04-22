@@ -1,19 +1,15 @@
-table {
-    border-style: inset;
-    border-collapse: collapse;
-    border-width: 0.2em;
-}
+
 
 th {
-    border-right: solid 1px;
     border-bottom: solid 1px;
-
 }
 
-td, .rightBorder {
-    border-right: solid 1px;
+td {
     padding: 10px;
-    max-width: 300px;
+}
+
+.rightBorder {
+    border-right: solid 1px;
 }
 
 div {
@@ -22,11 +18,22 @@ div {
 }
 
 img {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+
+.wideImage {
     height: 50px;
-    width: 50px;
+    width: 70px;
 }
 
 figcaption {
     text-align: center;
     font-size: small;
+}
+
+#skillTable {
+    width: 50%;
 }

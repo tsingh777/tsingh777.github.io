@@ -1,11 +1,19 @@
 var skillTable = {
-    beginners: [{
-        imgSrc: 'images/docker.png',
-        name: 'Docker'
-    }, {
-        imgSrc: 'images/spring.png',
-        name: 'Spring'
-    }],
+    beginners: [
+        {
+            imgSrc: 'images/docker.png',
+            name: 'Docker'
+        },
+        {
+            imgSrc: 'images/spring.png',
+            name: 'Spring'
+        },
+        {
+            imgSrc: 'images/mongodb.png',
+            name: 'MongoDB',
+            imgClass: 'wideImage'
+        }
+    ],
     developed: [
         {
             imgSrc: 'images/java.png',
@@ -21,7 +29,8 @@ var skillTable = {
         },
         {
             imgSrc: 'images/express.png',
-            name: 'Express JS'
+            name: 'Express JS',
+            imgClass: 'wideImage'
         },
         {
             imgSrc: 'images/bash.png',
@@ -63,7 +72,12 @@ var skillTable = {
         },
         {
             imgSrc: 'images/maven.png',
-            name: 'Maven'
+            name: 'Maven',
+            imgClass: 'wideImage'
+        },
+        {
+            imgSrc: 'images/handlebars.png',
+            name: 'Handlebars JS'
         }
     ]
 };
