@@ -1,0 +1,36 @@
+<table>
+<thead>
+<th>Beginner</th>
+<th>Developed</th>
+<th>Experiened</th>
+</thead>
+
+<tr>
+    <td class="rightBorder">
+        {{#each beginners}}
+            <div>
+                <img src="{{this.imgSrc}}">
+                <figcaption>{{this.name}}</figcaption>
+            </div>
+        {{/each}}
+    </td>
+    <td class="rightBorder">
+        {{#each developed}}
+            <div>
+                <img src="{{this.imgSrc}}">
+                <figcaption>{{this.name}}</figcaption>
+            </div>
+        {{/each}}
+    </td>
+    <td>
+        {{#each experienced}}
+            <div>
+                <img src="{{this.imgSrc}}">
+                <figcaption>{{this.name}}</figcaption>
+            </div>
+        {{/each}}
+    </td>
+</tr>
+
+
+</table>

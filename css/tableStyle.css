@@ -4,17 +4,29 @@ table {
     border-width: 0.2em;
 }
 
-th, td {
+th {
     border-right: solid 1px;
     border-bottom: solid 1px;
 
 }
 
-td {
+td, .rightBorder {
+    border-right: solid 1px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+div {
+    float: left;
     padding: 10px;
 }
 
 img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
 }

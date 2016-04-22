@@ -1,0 +1,24 @@
+{
+  "name": "tsingh777.github.io",
+  "version": "1.0.0",
+  "description": "my github page",
+  "main": "index.html",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./script/compileHandlebars.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsingh777/tsingh777.github.io.git"
+  },
+  "author": "Taranjit Singh <tsingh777@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsingh777/tsingh777.github.io/issues"
+  },
+  "homepage": "https://github.com/tsingh777/tsingh777.github.io#readme"
+}

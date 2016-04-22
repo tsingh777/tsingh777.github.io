@@ -18,27 +18,20 @@
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script src="scripts/handlebars-v4.0.5.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"
+            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
+    <script src="scripts/templates.js"></script>
+    <script src="data/Skills.js"></script>
+
 </head>
 
 <body>
 
-<table>
-    <thead>
-    <th>Beginner</th>
-    <th>Developed</th>
-    <th>Experiened</th>
-    </thead>
-
-    <tr>
-        <td>Docker</td>
-        <td>Java</td>
-        <td>
-            <img src="images/javascript.png">
-            <figcaption>Javascript</figcaption>
-        </td>
-    </tr>
-
-</table>
+<span id="skillTable"></span>
+<script src="scripts/utils/LoadTemplates.js"></script>
 
 </body>
 </html>
