@@ -1,32 +1,32 @@
-<table>
-    <thead>
-    <th>Beginner</th>
-    <th>Developed</th>
-    <th>Experiened</th>
+<table class="skillTable table table-responsive">
+    <thead class="skillThead">
+    <th class="skillth">Beginner</th>
+    <th class="skillth">Developed</th>
+    <th class="skillth">Experiened</th>
     </thead>
 
-    <tr>
-        <td class="rightBorder">
+    <tr class="skillTr">
+        <td class="skillTd rightBorder">
             {{#each beginners}}
-                <div>
-                    <img src="{{this.imgSrc}}" class="{{this.imgClass}}">
-                    <figcaption>{{this.name}}</figcaption>
+                <div class="skill">
+                    <img src="{{this.imgSrc}}" class="skillImg {{this.imgClass}}">
+                    <figcaption class="skillCaption">{{this.name}}</figcaption>
                 </div>
             {{/each}}
         </td>
-        <td class="rightBorder">
+        <td class="skillTd rightBorder">
             {{#each developed}}
-                <div>
-                    <img src="{{this.imgSrc}}" class="{{this.imgClass}}">
-                    <figcaption>{{this.name}}</figcaption>
+                <div class="skill">
+                    <img src="{{this.imgSrc}}" class="skillImg {{this.imgClass}}">
+                    <figcaption class="skillCaption">{{this.name}}</figcaption>
                 </div>
             {{/each}}
         </td>
-        <td>
+        <td class="skillTd">
             {{#each experienced}}
-                <div>
-                    <img src="{{this.imgSrc}}" class="{{this.imgClass}}">
-                    <figcaption>{{this.name}}</figcaption>
+                <div class="skill">
+                    <img src="{{this.imgSrc}}" class="skillImg {{this.imgClass}}">
+                    <figcaption class="skillCaption">{{this.name}}</figcaption>
                 </div>
             {{/each}}
         </td>

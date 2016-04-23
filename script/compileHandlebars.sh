@@ -1,1 +1,1 @@
-./node_modules/handlebars/bin/handlebars templates/* -f scripts/templates.js
+./node_modules/handlebars/bin/handlebars templates/* -f js/templates.js

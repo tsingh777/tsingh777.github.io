@@ -1,25 +1,14 @@
 
 
-th {
-    border-bottom: solid 1px;
-}
-
-td {
-    padding: 10px;
-}
-
-.rightBorder {
-    border-right: solid 1px;
-}
-
-div {
+.skill {
     float: left;
     padding: 10px;
+    width: 90px;
 }
 
-img {
-    height: 60px;
-    width: 60px;
+.skillImg {
+    height: 50px;
+    width: 50px;
     display: block;
     margin: auto;
 }
@@ -29,11 +18,11 @@ img {
     width: 70px;
 }
 
-figcaption {
+.skillCaption {
     text-align: center;
     font-size: small;
 }
 
 #skillTable {
-    width: 50%;
+    width: 85%;
 }

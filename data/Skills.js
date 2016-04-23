@@ -12,6 +12,15 @@ var skillTable = {
             imgSrc: 'images/mongodb.png',
             name: 'MongoDB',
             imgClass: 'wideImage'
+        },
+        {
+            imgSrc: 'images/bootstrap.png',
+            name: 'Bootstrap'
+        },
+        {
+            imgSrc: 'images/mysql.png',
+            name: 'MySQL',
+            imgClass: 'wideImage'
         }
     ],
     developed: [
@@ -21,7 +30,8 @@ var skillTable = {
         },
         {
             imgSrc: 'images/oracle-plsql.png',
-            name: 'Oracle PL/SQL'
+            name: 'Oracle PL/SQL',
+            imgClass: 'wideImage'
         },
         {
             imgSrc: 'images/jQurery.png',

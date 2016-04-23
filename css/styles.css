@@ -1,1 +1,5 @@
 @import "tableStyle.css";
+
+body {
+    padding-top: 70px;
+}
