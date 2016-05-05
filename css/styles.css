@@ -1,5 +1,23 @@
 @import "tableStyle.css";
 
 body {
-    padding-top: 70px;
+    /*background: url('../images/background.jpeg') no-repeat center center fixed;*/
+    background:silver no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+.myImage {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+

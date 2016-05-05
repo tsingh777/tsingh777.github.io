@@ -26,52 +26,29 @@
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="js/templates.js"></script>
     <script src="data/Skills.js"></script>
+    <script src="data/ContactInfo.js"></script>
 
 </head>
 
-<body>
-
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Taranjit Singh</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="active navPage" id="#">
-    content1...
+<body class="container ">
+<div class="">
+    <h1 class="nameH">Taranjit Singh</h1>
+    <ul>
+        <li><a href="https://github.com/tsingh777/">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/taranjit-singh-1852b07b">LinkedIn</a></li>
+    </ul>
 </div>
-
-<div class="hidden navPage" id="contact">
-    content2...
-</div>
-<div class="hidden navPage" id="about">
+<div class="snavPage" id="about">
     <div class="panel-group" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                       aria-expanded="true" aria-controls="collapseOne">
+                    <span>
                         Technical Skills
-                    </a>
+                    </span>
                 </h4>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div>
                     <div class="panel panel-default">
                         <div id="skillTable" class="center-block"></div>
@@ -79,36 +56,8 @@
                 </div>
             </div>
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
-                <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                       href="#collapseTwo"
-                       aria-expanded="false" aria-controls="collapseTwo">
-                        Work Experience
-                    </a>
-                </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
-                <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                       href="#collapseThree"
-                       aria-expanded="false" aria-controls="collapseThree">
-                        Education
-                    </a>
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="panel-body">
-                </div>
-            </div>
-        </div>
+
+
     </div>
 </div>
 <script src="js/utils/LoadTemplates.js"></script>

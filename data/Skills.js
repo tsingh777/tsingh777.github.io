@@ -21,17 +21,21 @@ var skillTable = {
             imgSrc: 'images/mysql.png',
             name: 'MySQL',
             imgClass: 'wideImage'
+        },
+        {
+            imgSrc: 'images/selenium.png',
+            name: 'Selenium'
+        },
+        {
+            imgSrc: 'images/aws.png',
+            name: 'AWS',
+            imgClass: 'wideImage'
         }
     ],
     developed: [
         {
             imgSrc: 'images/java.png',
             name: 'Java'
-        },
-        {
-            imgSrc: 'images/oracle-plsql.png',
-            name: 'Oracle PL/SQL',
-            imgClass: 'wideImage'
         },
         {
             imgSrc: 'images/jQurery.png',
@@ -43,8 +47,21 @@ var skillTable = {
             imgClass: 'wideImage'
         },
         {
+            imgSrc: 'images/oracle-plsql.png',
+            name: 'Oracle PL/SQL',
+            imgClass: 'wideImage'
+        },
+        {
             imgSrc: 'images/bash.png',
             name: 'Bash Shell'
+        },
+        {
+            imgSrc: 'images/junit.png',
+            name: 'JUnit'
+        },
+        {
+            imgSrc: 'images/jsp.png',
+            name: 'JSP'
         }
     ],
     experienced: [
