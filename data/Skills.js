@@ -1,5 +1,5 @@
 var skillTable = {
-    beginners: [
+    developed: [
         {
             imgSrc: 'images/docker.png',
             name: 'Docker'
@@ -30,9 +30,7 @@ var skillTable = {
             imgSrc: 'images/aws.png',
             name: 'AWS',
             imgClass: 'wideImage'
-        }
-    ],
-    developed: [
+        },
         {
             imgSrc: 'images/java.png',
             name: 'Java'
@@ -62,9 +60,7 @@ var skillTable = {
         {
             imgSrc: 'images/jsp.png',
             name: 'JSP'
-        }
-    ],
-    experienced: [
+        },
         {
             imgSrc: 'images/html.png',
             name: 'HTML'
@@ -105,6 +101,14 @@ var skillTable = {
         {
             imgSrc: 'images/handlebars.png',
             name: 'Handlebars JS'
+        },
+        {
+            imgSrc: 'images/ember.png',
+            name: 'Ember JS'
+        },
+        {
+            imgSrc: 'images/mocha.svg',
+            name: 'Mocha JS'
         }
     ]
 };
